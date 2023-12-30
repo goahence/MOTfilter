@@ -7,6 +7,8 @@ import contextlib
 import platform
 import threading
 
+from .math import expand_dims
+
 
 def emojis(str=''):
     # Return platform-dependent emoji-safe version of string
